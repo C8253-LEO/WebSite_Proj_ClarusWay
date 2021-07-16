@@ -1,0 +1,187 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #35424a;
+    color: #ffffff;
+    border-bottom: 3px solid chartreuse;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+header h1{
+    float: left;
+    font-weight: bold;
+}
+span{
+    color: chartreuse;
+    font-weight: bold;
+}
+nav{
+    float: right;
+    margin-top: 15px;
+}
+li{
+    display:inline;
+    word-spacing: 15px;
+}
+li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+a:hover{
+    color:chartreuse;
+    font-weight: bold;
+}
+.hero{
+    background-image: url(./img/showcase.jpg);
+    text-align: center;
+    height: 400px;
+    color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero h1{
+    font-size: 35px;
+    padding: 60px 0 10px 0;
+}
+aside{
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+aside p{
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    width: 45%;
+}
+form{
+    float: right;
+    margin: auto 0;
+    margin-top: 20px;
+}
+input{
+    width: 250px;
+    padding: 10px 0;
+    border: none;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: fuchsia;
+    color: white;
+}
+.boxes{
+    background-color: #f4f4f4;
+}
+.box{
+    height: 300px;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.box img{
+    padding: 20px 0;
+}
+.box p {
+    padding: 10px 10px;
+}
+footer{
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 27px;
+    text-align: center;
+    position: relative;
+}
+.main-grid{
+    background-color: #f4f4f4;
+}
+.about--us{
+    float: left;
+    width: 60%;
+    margin-right: 25px;
+}
+.background{
+    background-color: #35424a;
+    color: white;
+    padding: 10px;
+}
+.wwd{
+    background-color: #35424a;
+    width: 30%;
+    float: right;
+    color: #ffffff;
+    margin-top: 15px;
+    padding: 25px 10px;
+    margin-bottom: 200px;
+}
+.footer{
+    margin-bottom: 0;
+}
+.services{
+    float: left;
+    width: 60%;
+    margin-right: 25px;
+}
+.service{
+    padding: 20px;
+    background-color: #e6e6e6;
+    border: 1px solid darkgray;
+    margin-bottom: 5px;
+}
+.wwd input{
+    width: 370px;
+    margin: 5px 0;
+}
+@media (max-width: 768px){
+    header h1, nav{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .newsletter p{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .newsletter form{
+        float: none;
+        text-align: center;
+    }
+    .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .about--us{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .wwd{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .services{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .wwd input{
+        width: 100%;
+    }
+    #button{
+        width: 100%;
+    }
+}
